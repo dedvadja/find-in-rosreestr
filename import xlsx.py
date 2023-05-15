@@ -42,8 +42,8 @@ def send_email(file):
     outlook = win32.Dispatch('outlook.application')
     mail = outlook.CreateItem(0)
     mail.Subject = 'RE: Rosreestr'
-    # mail.To = 'samylovskiy.v.s@mail.ca.sbrf.ru'
-    mail.To = 'samylovskiy-vs@sberbank.ru'
+    mail.To = 'samylovskiy.v.s@mail.ca.sbrf.ru'
+    # mail.To = 'samylovskiy-vs@sberbank.ru'
     mail.HTMLBody = r"""
     Дорогой Вадим,<br><br>
     С величайшей радостью отправляю тебе плод моей кропотливой работы.<br><br>
